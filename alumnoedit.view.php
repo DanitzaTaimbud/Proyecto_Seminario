@@ -35,7 +35,7 @@ if(isset($_GET['id'])) {
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
    
 
-    <title>INESUR</title>
+    <title>INESFA</title>
     <style>
    body {
       background-color:#D7E6FE;
@@ -63,7 +63,7 @@ if(isset($_GET['id'])) {
         <div class="col-md-6 mx-auto">
             <div class="card mt-5" style="border-radius:20px;">
                 <div class="card-body" >
-                    <h4 class="card-title">Registro de Alumnos</h4>
+                    <h4 class="card-title">Registro de Alumnas</h4>
                     <form method="post" class="form" action="procesaralumno.php">
                         <div class="form-group">
                         <input type="hidden" value="<?php echo $alumno['id']?>" name="id">
@@ -75,7 +75,7 @@ if(isset($_GET['id'])) {
                             <input type="text" class="form-control" id="apellidos" required maxlength="45" name="apellidos" value="<?php echo $alumno['apellidos']?>">
                         </div>
                         <div class="form-group">
-                            <label for="numlista">No de Lista</label>
+                            <label for="numlista">N. de Lista</label>
                             <input type="number" class="form-control" id="numlista" min="1" name="numlista" value="<?php echo $alumno['num_lista']?>">
                         </div>
                         <div class="form-group">
@@ -83,11 +83,11 @@ if(isset($_GET['id'])) {
                                 <label>Sexo</label><br>
                                 <div class="form-check form-check-inline">
                                     <input required type="radio" name="genero" <?php if($alumno['genero'] == 'M') echo "checked"; ?> value="M" class="form-check-input">
-                                    <label class="form-check-label">Masculino</label>
+                                    <label class="form-check-label">Femenino</label>
                                 </div>
                                 <div class="form-check form-check-inline">
                                     <input required type="radio" name="genero" <?php if($alumno['genero'] == 'F') echo "checked"; ?> value="F" class="form-check-input">
-                                    <label class="form-check-label">Femenino</label>
+                                    <label class="form-check-label">No especifica</label>
                                 </div>
                             </div>
 

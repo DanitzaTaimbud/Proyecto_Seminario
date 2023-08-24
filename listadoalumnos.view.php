@@ -45,7 +45,7 @@
 <br>
 <div class="container">
     <div class="panel">
-        <h4 class="text-center"><b>LISTA DE ALUMNOS</b></h4>
+        <h4 class="text-center"><b>LISTA DE ALUMNAS</b></h4>
         <table class="table table-striped table-bordered table-hover">
             <thead class="thead-dark">
                 <tr>
@@ -87,7 +87,7 @@
         </table>
         <br><br>
         <div class="container">
-        <a class="btn btn-success float-right" href="alumnos.view.php">Agregar Alumno</a>
+        <a class="btn btn-success float-right" href="alumnos.view.php">Agregar Alumna</a>
         </div>
         <br><br>
 

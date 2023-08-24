@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     
 
-    <title>INESUR</title>
+    <title>INESFA</title>
     <style>
    body {
       background-color:#D7E6FE;
@@ -43,7 +43,7 @@
 
 <br>
 <div class="container">
-        <h3 class="text-center"><b>Bienvenido:  <?php echo $_SESSION["username"] ?></b></h3>
+        <h3 class="text-center"><b>Bienvenida:  <?php echo $_SESSION["username"] ?></b></h3>
 </div>
   <!--cards para redirects-->
   <div class="container" style="padding:2em;">
@@ -65,7 +65,7 @@
         <div class="card-body">
             <h5 class="card-title">Consulta de notas</h5>
             <p class="card-text">
-             En esta sección puede consultar las notas de cada alumno.
+             En esta sección puede consultar las notas de cada alumna.
             </p>
             <p class="card-text"><small class="text-muted">
                 <a href="listadonotas.view.php" class="btn btn-info float-right" >Ingresar</a>

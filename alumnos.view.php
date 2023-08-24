@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
    
 
-    <title>INESUR</title>
+    <title>INESFA</title>
     <style>
    body {
       background-color:#D7E6FE;
@@ -52,7 +52,7 @@
         <div class="col-md-6 mx-auto">
             <div class="card mt-5" style="border-radius:20px;">
                 <div class="card-body" >
-                    <h4 class="card-title">Registro de Alumnos</h4>
+                    <h4 class="card-title">Registro de Alumnas</h4>
                     <form method="post" class="needs-validation" action="procesaralumno.php" novalidate>
                         <div class="form-group">
                             <label for="nombres">Nombres</label>
@@ -63,18 +63,18 @@
                             <input type="text" class="form-control" id="apellidos" required maxlength="45" name="apellidos">
                         </div>
                         <div class="form-group">
-                            <label for="numlista">No de Lista</label>
+                            <label for="numlista">N. de Lista</label>
                             <input type="number" class="form-control" id="numlista" min="1" name="numlista">
                         </div>
                         <div class="form-group">
                             <label>Sexo</label><br>
                             <div class="form-check form-check-inline">
                                 <input class="form-check-input" type="radio" name="genero" id="generoM" value="M" required>
-                                <label class="form-check-label" for="generoM">Masculino</label>
+                                <label class="form-check-label" for="generoM">Femenino</label>
                             </div>
                             <div class="form-check form-check-inline">
                                 <input class="form-check-input" type="radio" name="genero" id="generoF" value="F" required>
-                                <label class="form-check-label" for="generoF">Femenino</label>
+                                <label class="form-check-label" for="generoF">No especifica</label>
                             </div>
                         </div>
                         <div class="form-group">

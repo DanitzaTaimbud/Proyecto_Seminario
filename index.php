@@ -12,7 +12,7 @@
     <title>INESUR</title>
     <style>
    body {
-      background-image: url('img/img1.jpeg');
+      background-image: url('img/img1.jpg');
       background-size: cover;
       background-repeat: no-repeat;
     }
@@ -43,7 +43,7 @@ $messages = [
 ];
 ?>
 <nav class="navbar navbar-expand-lg" style="background-color:#2F4794; color:white;">
-  <a class="navbar-brand" href="/" style="color:white;"><b>INESUR</b></a>
+  <a class="navbar-brand" href="index.php" style="color:white;"><b>INESFA</b></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -56,7 +56,7 @@ $messages = [
         <!--modal mision-->
         <!-- Button trigger modal -->
             <a type="button" class="nav-link" data-toggle="modal" data-target="#mision" style="color:white;">
-            <b> Misión </b>
+            <b> Somos </b>
            </a>
 
             <!-- Modal -->
@@ -64,13 +64,13 @@ $messages = [
             <div class="modal-dialog">
                 <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel"  style="color:black;"> Nuestra misión:</h5>
+                    <h5 class="modal-title" id="exampleModalLabel"  style="color:black;"> Somos:</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body" style="color:black;">
-                Es capacitar a personas comprometidas con el desarrollo social y económico, formando líderes con integridad humana, capaces de contribuir a alcanzar una sociedad más justa y equitativa.
+                Una Institución Educativa de carácter oficial que  beneficia a la mujer de los estratos 1, 2 y 3, orientada por Religiosas Franciscanas y cuya finalidad consiste en educar integralmente a las estudiantes en valores inspirados en el mensaje del evangelio, en la vida y obra de su patrono Francisco de Asís y su fundadora Madre Caridad.
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-warning" data-dismiss="modal">Salir</button>
@@ -83,7 +83,7 @@ $messages = [
       <li class="nav-item">
           <!-- Button trigger modal visión -->
           <a type="button" class="nav-link" data-toggle="modal" data-target="#vision" style="color:white;">
-            <b> Visión </b>
+            <b> Queremos: </b>
            </a>
 
             <!-- Modal -->
@@ -91,13 +91,13 @@ $messages = [
             <div class="modal-dialog">
                 <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel"  style="color:black;">Nuestra visión:</h5>
+                    <h5 class="modal-title" id="exampleModalLabel"  style="color:black;">Queremos:</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body" style="color:black;">
-               Es convertirnos en una institución educativa líder y comprometida con el desarrollo de los sectores económicos a nivel regional,departamental y nacional. Seremos reconocidos por ofrecer talento humano experto en competencias laborales, las cuales desarrollaremos mediante programas certificados que garantizan la calidad en la formación para el trabajo y el desarrollo humano; fortalecidos en valores, espíritu de servicio, compromiso y sentido de pertenencia.
+                Una estudiante autónoma, capaz de tomar determinaciones libres y responsables, de tener respeto en sus relaciones. Integral e intelectualmente competente, abierta al cambio en busca de una sociedad más justa, capaz de asumir los retos de la ciencia y sobre todo que sea comprometida cristianamente con su opción de vida dando testimonio de sus valores dentro y fuera de la Institución.
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-warning" data-dismiss="modal">Salir</button>
