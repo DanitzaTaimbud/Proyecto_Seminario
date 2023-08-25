@@ -8,7 +8,7 @@
         <div class="card-body">
             <h5 class="card-title">Registro de alumnas</h5>
             <p class="card-text">
-             En esta sección puede realizar el registro de los alumnas en el curso.
+             Realizar el registro de las alumnas en el curso.
             </p>
             <p class="card-text"><small class="text-muted">
                 <a href="alumnos.view.php" class="btn btn-info float-right" >Ingresar</a>
@@ -30,7 +30,7 @@
         <div class="card-body">
             <h5 class="card-title">Lista de alumnas</h5>
             <p class="card-text">
-             En esta sección puede visualizar los alumnas en el curso.
+             Visualiza las alumnas en el curso.
             </p>
             <p class="card-text"><small class="text-muted">
                 <a href="listadoalumnos.view.php" class="btn btn-info float-right" >Ingresar</a>
@@ -52,7 +52,7 @@
         <div class="card-body">
             <h5 class="card-title">Registro de notas</h5>
             <p class="card-text">
-             En esta sección puede ingresar las notas de cada alumna.
+             Ingresa las notas de cada alumna.
             </p>
             <p class="card-text"><small class="text-muted">
                 <a href="notas.view.php" class="btn btn-info float-right" >Ingresar</a>
