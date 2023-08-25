@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     
 
-    <title>INESUR</title>
+    <title>INESFA</title>
     <style>
    body {
       background-image: url('img/img1.jpg');
@@ -132,7 +132,7 @@ $messages = [
 </div>
 <!--end formulario-->
   <footer id="footer" class="py-4 text-center" style="background-color:#2F4794;">
-    <p style="color:white; font-size:20px;">INESFA &copy; 2023</p>
+    <p style="color:white; font-size:20px;"> INSTITUCIÓN EDUCATIVA SAN FRANCISCO DE ASIS</p>
   </footer>
 
     <!-- Optional JavaScript; choose one of the two! -->

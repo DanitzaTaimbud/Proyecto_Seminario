@@ -82,11 +82,11 @@ if(isset($_GET['id'])) {
                             <div class="form-group">
                                 <label>Sexo</label><br>
                                 <div class="form-check form-check-inline">
-                                    <input required type="radio" name="genero" <?php if($alumno['genero'] == 'M') echo "checked"; ?> value="M" class="form-check-input">
+                                    <input required type="radio" name="genero" <?php if($alumno['genero'] == 'F') echo "checked"; ?> value="F" class="form-check-input">
                                     <label class="form-check-label">Femenino</label>
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <input required type="radio" name="genero" <?php if($alumno['genero'] == 'F') echo "checked"; ?> value="F" class="form-check-input">
+                                    <input required type="radio" name="genero" <?php if($alumno['genero'] == 'N') echo "checked"; ?> value="N" class="form-check-input">
                                     <label class="form-check-label">No especifica</label>
                                 </div>
                             </div>

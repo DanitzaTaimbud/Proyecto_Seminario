@@ -2,7 +2,7 @@
 <div class="card mb-3" style="max-width: 540px; border-radius:20px;">
     <div class="row no-gutters">
         <div class="col-md-4">
-        <img src="./img/img2.png" alt="..." width="100%;" >
+        <img src="img/img2.png" alt="..." width="100%;" >
         </div>
         <div class="col-md-8">
         <div class="card-body">
@@ -24,7 +24,7 @@
    <div class="card mb-3" style="max-width: 540px; border-radius:20px;">
     <div class="row no-gutters">
         <div class="col-md-4">
-        <img src="./img/img3.png" alt="..." width="100%;" >
+        <img src="img/img3.png" alt="..." width="100%;" >
         </div>
         <div class="col-md-8">
         <div class="card-body">
@@ -46,7 +46,7 @@
     <div class="card mb-3" style="max-width: 540px; border-radius:20px;">
     <div class="row no-gutters">
         <div class="col-md-4">
-        <img src="./img/img4.png" alt="..." width="100%;" >
+        <img src="img/img4.png" alt="..." width="100%;" >
         </div>
         <div class="col-md-8">
         <div class="card-body">

@@ -69,12 +69,12 @@
                         <div class="form-group">
                             <label>Sexo</label><br>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="genero" id="generoM" value="M" required>
-                                <label class="form-check-label" for="generoM">Femenino</label>
+                                <input class="form-check-input" type="radio" name="genero" id="generoF" value="F" required>
+                                <label class="form-check-label" for="generoF">Femenino</label>
                             </div>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="genero" id="generoF" value="F" required>
-                                <label class="form-check-label" for="generoF">No especifica</label>
+                                <input class="form-check-input" type="radio" name="genero" id="generoN" value="N" required>
+                                <label class="form-check-label" for="generoN">No especifica</label>
                             </div>
                         </div>
                         <div class="form-group">
